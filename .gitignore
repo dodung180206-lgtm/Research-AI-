@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.vscode/
+# Dữ liệu và checkpoint lớn: không đưa lên git
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+models/checkpoints/*
+*.pt
+*.pth
